@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css">
+ <style>
+            body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            }
+
+            .navbar {
+            background-color: #fff;
+            }
+
+            .navbar-brand {
+            font-weight: bold;
+            }
+
+            .jumbotron {
+            background-color: #e9ecef;
+            padding: 80px;
+            margin-bottom: 0;
+            }
+
+            .jumbotron h1 {
+            color: #333;
+            font-size: 40px;
+            margin-bottom: 20px;
+            }
+
+            .jumbotron p {
+            color: #555;
+            font-size: 20px;
+            }
+
+            .container {
+            margin-top: 40px;
+            }
+
+            .container h2 {
+            color: #333;
+            font-size: 30px;
+            margin-bottom: 20px;
+            }
+
+            .container p {
+            margin-bottom: 20px;
+            }
+
+            footer {
+            background-color: #343a40;
+            color: #fff;
+            padding: 20px 0;
+            }
+
+ </style>
+  <title>Página Exemplo</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">Logo</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Serviços</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contatos</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4">Bem vindos ao nosso Site</h1>
+      <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vehicula tellus nec leo lacinia, ut
+        dapibus elit gravida. Proin eu tincidunt est.</p>
+    </div>
+  </header>
+
+  <section class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h2>Sobre nós</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam feugiat nisi in aliquet fringilla. In ut
+          sapien metus. Nullam euismod ligula ac nunc pharetra, ut sagittis orci feugiat. Fusce pulvinar est id nisl
+          mollis gravida. Nunc vel tempor orci, ac fringilla mauris. Integer at metus vitae enim venenatis aliquam vel
+          et leo. Quisque non urna id lorem hendrerit sagittis. Nam at commodo nisi. Donec vel nunc at mi tristique
+          lacinia vitae id justo.</p>
+      </div>
+      <div class="col-md-6">
+        <h2>Nossos Serviços</h2>
+        <ul>
+          <li>Serviço 1</li>
+          <li>Serviço 2</li>
+          <li>Serviço 3</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h2>Produtos</h2>
+        <div class="card mb-3">
+          <img src="not.jpg" width="100" class="card-img-top" alt="Product 1">
+          <div class="card-body">
+            <h5 class="card-title">Produto 1</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam feugiat nisi in aliquet
+              fringilla.</p>
+            <a href="#" class="btn btn-primary">Saiba mais</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <h2>Depoimentos</h2>
+        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam feugiat nisi in aliquet fringilla. In ut
+          sapien metus."</p>
+        <p> Fulano da Silva</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h2>Contate-nos</h2>
+        <form>
+          <div class="mb-3">
+            <label for="name" class="form-label">Nome</label>
+            <input type="text" class="form-control" id="name">
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email">
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Mensagem</label>
+            <textarea class="form-control" id="message" rows="5"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+      </div>
+      <div class="col-md-6">
+        <h2>Localização</h2>
+        <p>Pistão Sul, Taguatinga, Brasil</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3837.83810095779!2d-48.03271272565912!3d-15.865104224698628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a2d97a15b0507%3A0x3c3e4472ee75d834!2sUniversidade%20Cat%C3%B3lica%20de%20Bras%C3%ADlia%20-%20C%C3%A2mpus%20Taguatinga!5e0!3m2!1spt-BR!2sbr!4v1686137775146!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+          width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-dark text-light text-center py-4">
+    <p>&copy; 2023 Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
+
+
